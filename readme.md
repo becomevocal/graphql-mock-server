@@ -47,11 +47,23 @@ This will create two files:
 - `schema.json`: The raw introspection result
 - `schema.graphql`: The schema in GraphQL SDL format
 
-2. Start the mock server:
+2. Start the development server:
 
 ```bash
 npm run dev
 ```
+
+The server will be available at http://localhost:3000/api/graphql with GraphiQL interface enabled.
+
+## Deployment
+
+To deploy to Vercel:
+
+```bash
+vercel deploy
+```
+
+The production server will be available at your Vercel deployment URL with the path `/api/graphql`.
 
 ## Development
 

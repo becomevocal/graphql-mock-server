@@ -37,4 +37,8 @@ yarn-error.log*
 *.swp
 *.swo
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Vercel
+.vercel 
+.vercel
